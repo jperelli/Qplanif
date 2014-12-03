@@ -19,8 +19,7 @@
 //
 
 
-
-#include <qapplication.h>
+#include <QApplication>
 #include "planificador.hh"
 
 int main( int argc, char ** argv ) {

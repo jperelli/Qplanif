@@ -21,6 +21,7 @@
 
 #include <list>
 #include "tipos.h"
+#include "functional"
 
 // *** Constantes *********************************************
 
