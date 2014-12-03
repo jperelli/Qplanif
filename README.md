@@ -1,9 +1,9 @@
 Qplanif
 =======
 
-Simulador de planificacion de la CPU
+Simulador de planificación de la CPU
 
-Compilacion
+Compilación
 -----------
 
 **Prereqs:**
@@ -34,9 +34,9 @@ cd src
 Creditos
 ========
 
-Versión original:Ismael Ripoll y Sergio Saez
+Versión original: Ismael Ripoll y Sergio Saez
 
-Adaptación a qt3/qt4: Julián Perel
+Adaptación a qt3/qt4: Julián Perelli
 
 LICENCIA
 ========
