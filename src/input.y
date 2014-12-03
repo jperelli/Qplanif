@@ -24,15 +24,12 @@
   //#define DEBUG
 
 #define SALIR  num_tareas=-1; \
-  num_recursos=0; \
-  YYABORT     
+  num_recursos=0; \     
 
 
 
-  %}
+%}
 
-
-// %pure_parser
 
 
 %union {
@@ -210,5 +207,4 @@ int   Parsea_fichero(const char *name){
   num_recursos++;
   return linenumber;
 }
-
 
