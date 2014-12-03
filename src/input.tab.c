@@ -86,7 +86,7 @@
   
   int linenumber;
   
-  //#define DEBUG
+  #define DEBUG
 
 #define SALIR  num_tareas=-1; \
   num_recursos=0; \     
