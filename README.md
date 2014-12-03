@@ -20,7 +20,7 @@ flex -o linput.c linput.l
 
 cd ../bin
 
-qmake-qt4 Makefile
+qmake-qt4 -makefile
 
 make
 
