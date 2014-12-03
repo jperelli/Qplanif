@@ -71,7 +71,7 @@ b_linea_recurso: RECURSO IDEN
 #ifdef DEBUG
 		  printf(">Recurso: %s\n",$2);
 #endif
-		  strncpy(Recursos[num_recursos].nombre,$2,100);
+		  strncpy(Recursos[num_recursos].nombre,$2,90);
 		}
 ;
 
@@ -89,7 +89,7 @@ b_linea_tarea: TAREA IDEN
 #ifdef DEBUG
 		 printf(">Tarea: %s\n",$2);
 #endif
-		 strncpy(Tareas[num_tareas].nombre,$2,100);
+		 strncpy(Tareas[num_tareas].nombre,$2,90); // aca explota porque ese 100 se pasa de algun limite
 		 /* Se inicializan los atributos a los valores por defecto */
 		 Tareas[num_tareas].periodo=Tareas[num_tareas].llegada= (tiempo_t)0;
 		 Tareas[num_tareas].Nsubtareas=Tareas[num_tareas].prioridad=0;
